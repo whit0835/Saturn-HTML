@@ -64,13 +64,14 @@ nav li{
 
 #wrapper{
     max-width:929px;
+    color:#444;
 }
 
 #masthead{
     padding-top: 83px;
 
     text-align:center;
-    background-image: url("http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg");
+    background-image: url("../img/saturn.v1.jpg");
     height:300px;
     color: #eee;   
 }
