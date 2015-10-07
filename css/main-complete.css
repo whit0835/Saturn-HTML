@@ -44,12 +44,13 @@ p{
 }
 nav a, nav a:link, nav a:visited{
     color: gold;
+    text-decoration: none;
 }
 nav a:hover, a:active{
     color: #fff;
 }
 
-a .nounderline:link {text-decoration: none;}
+ {text-decoration: none;}
 
 nav li{
 
