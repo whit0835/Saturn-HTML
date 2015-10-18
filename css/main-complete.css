@@ -31,12 +31,12 @@ html, body{
 }
 h1{
     color: #eee;
-    font-size:4.7rem;
+    font-size:5.2rem;
     text-shadow: -2px -2px 2px gold, 2px 2px 2px #000;
 
 }
 h3{
-    font-size:2.0rem;
+    font-size:2.2rem;
 }
 p{
 
@@ -44,12 +44,15 @@ p{
 }
 nav a, nav a:link, nav a:visited{
     color: gold;
+    text-decoration: none;
 }
 nav a:hover, a:active{
     color: #fff;
 }
 
+ {text-decoration: none;}
 
+<<<<<<< HEAD
 nav ul{
     border-top:10px, solid, red;
     padding-top:10px;
@@ -59,7 +62,10 @@ nav ul{
 
 
 }
+=======
+>>>>>>> origin/gh-pages
 nav li{
+
     display:inline;
     margin-top: 50px;
 
@@ -71,16 +77,25 @@ nav li{
 
 #wrapper{
     max-width:929px;
+    color:#444;
 }
+
 #masthead{
     padding-top: 83px;
 
     text-align:center;
-    background-image: url("http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg");
+    background-image: url("../img/saturn.v1.jpg");
     height:300px;
-    color: #eee;
-
+    color: #eee;   
 }
+
+#mainnav{
+    border-top:10px solid #666;
+    border-bottom:15px solid #666;
+    text-align:justify;
+    font-size: 1.6rem;
+}
+
 #main{
     color: #d4d4d4;
     background-color: #222;
@@ -93,12 +108,8 @@ nav li{
 }
 #main p {
     margin-top: 50px;
-    font-size:1.55rem;
+    font-size:1.7rem;
 }
-
-
-
-
 
 
 #footer{
