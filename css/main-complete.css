@@ -24,22 +24,29 @@ http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
     box-sizing: border-box;
 }
 html, body{
-    padding-left: 50px;
     font-size: 3vh; /* default font-size = 1.0rem */
     font-family: 'Helvetica Neue', Calibri, Verdana, sans-serif;
     background-color:#444;
 }
 h1{
     color: #eee;
+<<<<<<< HEAD
     font-size:5.2rem;
     text-shadow: -2px -2px 2px gold, 2px 2px 2px #000;
 
 }
 h3{
     font-size:2.2rem;
+=======
+    font-size:3rem;
+}
+h3{
+    font-size:1.5rem;
+>>>>>>> parent of ec2e64f... almost done
 }
 p{
-
+    margin-top: 50px;
+    font-size:1.2rem;
 
 }
 nav a, nav a:link, nav a:visited{
@@ -47,6 +54,7 @@ nav a, nav a:link, nav a:visited{
     text-decoration: none;
 }
 nav a:hover, a:active{
+<<<<<<< HEAD
     color: #fff;
 }
 
@@ -61,30 +69,34 @@ nav ul{
     font-size: 1.2rem;
 
 
+=======
+
+}
+nav ul{
+    text-align:right;
+>>>>>>> parent of ec2e64f... almost done
 }
 =======
 >>>>>>> origin/gh-pages
 nav li{
 
     display:inline;
-    margin-top: 50px;
-
-    padding-left: 30px;
-    padding-right: 30px;
 
 }
-
-
 #wrapper{
     max-width:929px;
     color:#444;
 }
 
 #masthead{
+<<<<<<< HEAD
     padding-top: 83px;
 
     text-align:center;
     background-image: url("../img/saturn.v1.jpg");
+=======
+    background-image: url("http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg");
+>>>>>>> parent of ec2e64f... almost done
     height:300px;
     color: #eee;   
 }
@@ -99,6 +111,7 @@ nav li{
 #main{
     color: #d4d4d4;
     background-color: #222;
+<<<<<<< HEAD
 
     padding-top: 50px;
     padding-bottom: 50px;
@@ -112,14 +125,17 @@ nav li{
 }
 
 
+=======
+    padding:30px;
+}
+>>>>>>> parent of ec2e64f... almost done
 #footer{
     color: #999;
     background-color: #333;
-    font-size:20px;
-    padding:30px;
+
 }
 #footer p{
-
+    font-size:10px;
 }
 #footer a{
     color:gold;
